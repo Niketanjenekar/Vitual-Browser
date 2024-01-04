@@ -1,15 +1,15 @@
 version: "3"
 services:
   neko:
-    image: "niketanjenekar/vb2:latest"
+    image: "niketanjenekar/vb:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
       - "8082:8082"
-      - "52000-52200:52000-52200/udp"
+      - "52000-52100:52000-52100/udp"
     environment:
       NEKO_SCREEN: 1920x1080@30
       NEKO_PASSWORD: neko
       NEKO_PASSWORD_ADMIN: admin
-      NEKO_EPR: 52000-52200
+      NEKO_EPR: 52000-52100
       NEKO_ICELITE: 1
