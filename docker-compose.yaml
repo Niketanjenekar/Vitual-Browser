@@ -11,5 +11,5 @@ services:
       NEKO_SCREEN: 1920x1080@30
       NEKO_PASSWORD: neko
       NEKO_PASSWORD_ADMIN: admin
-      NEKO_EPR: 52000-52100
+      NEKO_EPR: 52000-52200
       NEKO_ICELITE: 1
